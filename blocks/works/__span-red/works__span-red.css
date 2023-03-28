@@ -1,0 +1,11 @@
+.works__span-red {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgb(212, 56, 56);
+  color: var(--color-text-white);
+  cursor: default;
+}

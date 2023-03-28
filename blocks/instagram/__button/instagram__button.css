@@ -1,0 +1,12 @@
+.instagram__button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  display: none;
+}
+
+@media screen and (max-width: 781px) {
+  .instagram__button {
+    display: block;
+  }
+}

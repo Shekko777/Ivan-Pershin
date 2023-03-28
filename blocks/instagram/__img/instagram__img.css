@@ -1,0 +1,15 @@
+.instagram__img {
+  transition: transform 0.2s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.instagram__img:hover {
+  transform: scale(1.1);
+}
+
+.instagram__img:active {
+  transform: scale(1.1);
+}

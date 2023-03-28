@@ -1,0 +1,11 @@
+.music__iframe-list {
+  border: none;
+  width: 100%;
+  height: 600px;
+}
+
+@media screen and (max-width: 500px) {
+  .music__iframe-list {
+    height: 450px;
+  }
+}

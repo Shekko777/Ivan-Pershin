@@ -1,0 +1,71 @@
+/* vender */
+@import url(../vender/normalize.css);
+@import url(../vender/font.css);
+
+/* Глобальные стили */
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/_active/page_active.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/footer-link/footer-link.css);
+
+/* social */
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/__list/socials__list.css);
+@import url(../blocks/socials/__item/socials__item.css);
+@import url(../blocks/socials/__link/socials__link.css);
+@import url(../blocks/socials/__list/_burger/socials__list_burger.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_active/nav__list_active.css);
+@import url(../blocks/nav/__link/nav__link.css);
+
+/* burger */
+@import url(../blocks/burger-button/burger-button.css);
+@import url(../blocks/burger-button/_active/burger-button_active.css);
+@import url(../blocks/burger-button/__span/burger-button__span.css);
+@import url(../blocks/burger-button/__span/_active/burger-button__span_active.css);
+
+/* intro */
+@import url(../blocks/intro/__main/intro__main.css);
+@import url(../blocks/intro/__content/intro__content.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__span/intro__span.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__avatar/intro__avatar.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__item-title/about__item-title.css);
+@import url(../blocks/about/__item-text/about__item-text.css);
+
+/* works */
+@import url(../blocks/works/works.css);
+@import url(../blocks/works/__list/works__list.css);
+@import url(../blocks/works/__item/works__item.css);
+@import url(../blocks/works/__title/works__title.css);
+@import url(../blocks/works/__link/works__link.css);
+@import url(../blocks/works/__span-red/works__span-red.css);
+@import url(../blocks/works/__span-green/works__span-green.css);
+
+/* music */
+@import url(../blocks/music/music.css);
+@import url(../blocks/music/__list/music__list.css);
+@import url(../blocks/music/__iframe/music__iframe.css);
+@import url(../blocks/music/__iframe-list/music__iframe-list.css);
+
+/* instagram */
+@import url(../blocks/instagram/instagram.css);
+@import url(../blocks/instagram/__list/instagram__list.css);
+@import url(../blocks/instagram/__item/instagram__item.css);
+@import url(../blocks/instagram/__img/instagram__img.css);
+@import url(../blocks/instagram/__button/instagram__button.css);

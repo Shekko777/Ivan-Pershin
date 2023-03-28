@@ -1,0 +1,15 @@
+.intro__button {
+  margin-top: 35px;
+  padding: 25px 62px;
+  display: inline-block;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 750px) {
+  .intro__button {
+    padding: 15px 40px;
+  }
+}

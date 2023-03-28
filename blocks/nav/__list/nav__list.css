@@ -1,0 +1,22 @@
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .nav__list {
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    background-color: rgba(24, 26, 34, 1);
+    width: 200px;
+    padding: 10px;
+    right: 6%;
+    top: 125%;
+    border-radius: 0 0 20px 20px;
+  }
+}

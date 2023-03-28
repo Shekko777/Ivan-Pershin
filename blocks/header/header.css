@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  padding: 10px 0;
+  width: 100%;
+  background: rgba(24, 26, 34, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 10px 0;
+  }
+}

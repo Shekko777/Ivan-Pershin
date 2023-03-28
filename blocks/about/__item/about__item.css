@@ -1,0 +1,6 @@
+.about__item {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgba(29, 29, 37, 0.6);
+  box-shadow: 0 0 35px 2px rgba(0, 0, 0, 0.4);
+}

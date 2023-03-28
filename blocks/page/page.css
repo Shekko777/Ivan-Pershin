@@ -1,0 +1,9 @@
+.page {
+  position: relative;
+  font-family: var(--main-font);
+  font-weight: var(--main-weight);
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-text-white);
+  background-color: var(--color-bg-100);
+}

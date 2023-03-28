@@ -1,0 +1,13 @@
+:root {
+  /* цвета */
+  --color-bg-100: #16161d;
+  --color-bg-200: #191920;
+  --color-bg-300: #4e6191;
+  --color-bg-400: #1b2944;
+  --color-text-white: #ebebeb;
+
+  /* шрифты */
+  --main-font: "Inter", sans-serif;
+  --main-weight: 400;
+  --bold-weight: 700;
+}

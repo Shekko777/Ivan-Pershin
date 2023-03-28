@@ -1,0 +1,11 @@
+.works__span-green {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: rgb(46, 155, 61);
+  color: var(--color-text-white);
+  cursor: default;
+}
