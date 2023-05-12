@@ -61,3 +61,9 @@ popupImage.addEventListener("click", (evt) => {
     popupImage.classList.remove("popup-image_type_opened");
   }
 });
+
+document.addEventListener("keydown", (evt) => {
+  if (evt.keyCode === 27) {
+    popupImage.classList.remove("popup-image_type_opened");
+  }
+});
