@@ -16,21 +16,11 @@ for (let anchor of anchors) {
 const instButton = document.querySelector(".instagram__button");
 const instList = document.querySelector(".instagram__list");
 
-instButton.addEventListener("click", function () {
-  if (instList.style.maxHeight == "480px") {
-    instList.style.maxHeight = "100%";
-    instButton.innerHTML = "Скрыть";
-  } else {
-    instList.style.maxHeight = "480px";
-    instButton.innerHTML = "Показать еще";
-  }
-});
-
-const burgerButton = document.querySelector(".burger-button");
-const burgerSpan = document.querySelector(".burger-button__span");
-const burgerList = document.querySelector(".nav__list");
-const burgerLink = document.querySelectorAll(".nav__link");
-const page = document.querySelector(".page");
+const burgerButton = document.querySelector(".burger-button"),
+  burgerSpan = document.querySelector(".burger-button__span"),
+  burgerList = document.querySelector(".nav__list"),
+  burgerLink = document.querySelectorAll(".nav__link"),
+  page = document.querySelector(".page");
 
 burgerButton.addEventListener("click", function () {
   burgerButton.classList.toggle("burger-button_active");
@@ -47,3 +37,21 @@ for (let links of burgerLink) {
     page.classList.remove("page_active");
   });
 }
+
+// галерея
+
+const popupImage = document.querySelector(".popup-image");
+const images = document.querySelectorAll(".instagram__img");
+const popupClose = document.querySelector(".popup-image__close");
+const imagePopup = document.querySelector(".popup-image__img");
+
+images.forEach((el) => {
+  el.addEventListener("click", () => {
+    popupImage.classList.add("popup-image_type_opened");
+    imagePopup.src = el.src;
+  });
+});
+
+popupClose.addEventListener("click", () => {
+  popupImage.classList.remove("popup-image_type_opened");
+});

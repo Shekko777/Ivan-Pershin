@@ -6,10 +6,8 @@
   object-position: center top;
 }
 
-.instagram__img:hover {
-  transform: scale(1.1);
-}
-
-.instagram__img:active {
-  transform: scale(1.1);
+@media screen and (max-width: 781px) {
+  .instagram__img {
+    min-width: 224px;
+  }
 }

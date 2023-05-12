@@ -69,3 +69,15 @@
 @import url(../blocks/instagram/__item/instagram__item.css);
 @import url(../blocks/instagram/__img/instagram__img.css);
 @import url(../blocks/instagram/__button/instagram__button.css);
+
+/* popup-image */
+@import url(../blocks/popup-image/popup-image.css);
+@import url(../blocks/popup-image/_type/popup-image_type_opened.css);
+@import url(../blocks/popup-image/__figure/popup-image__figure.css);
+@import url(../blocks/popup-image/__img/popup-image__img.css);
+@import url(../blocks/popup-image/__close/popup-image__close.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__text/footer__text.css);
