@@ -55,3 +55,9 @@ images.forEach((el) => {
 popupClose.addEventListener("click", () => {
   popupImage.classList.remove("popup-image_type_opened");
 });
+
+popupImage.addEventListener("click", (evt) => {
+  if (evt.target === evt.currentTarget) {
+    popupImage.classList.remove("popup-image_type_opened");
+  }
+});
