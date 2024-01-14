@@ -1,1 +1,7 @@
-  <h1 align="center">Проект react-mesto-auth</h1> 
+<h1 align="center">Проект movies-exporer-api</h1>
+
+---
+
+<h2 style="color: #4285B4;">О проекте:</h2>
+
+<p style="width: 600px; font-weight: 500">API приложение для кинотеатра, созданное для работа с базой данных, хранением информации, операции с приложением.</p>
